@@ -1,8 +1,9 @@
 body{
     box-sizing: border-box;
-    background-image: url(../../data/mustang.jpeg);
+    background-image: url(../../data/mustang1.jpeg);
+
+    background-size: 1550px;
     background-repeat: no-repeat;
-    background-size: cover;
     color: white;
 }
 

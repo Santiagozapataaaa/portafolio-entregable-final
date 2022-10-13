@@ -1,4 +1,30 @@
-.contenedor{
+main {
     padding-top: 100px;
 }
 
+.contenedor{
+    display: flex;
+    margin: 200px 80px 250px 80px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contenedor :first-child{
+    padding-left: 30px;
+}
+
+.imagen img{
+
+        width: 300px;
+        display: block;
+        filter: invert(100);
+        float: left;
+    
+}
+.contenedor :nth-child(2){
+    padding: 40px;
+}
+
+p{
+    font-size: 20px;
+}
