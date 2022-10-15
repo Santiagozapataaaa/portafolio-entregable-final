@@ -2,9 +2,9 @@ import React, { Fragment } from 'react'
 
 const Projects = () => {
     return(
-        <Fragment>
-            <p>Lorem ipsum</p>
-        </Fragment>
+            <section id='proyectos'>
+                <p>Lorem ipsum</p>
+            </section>
     )
 }
 

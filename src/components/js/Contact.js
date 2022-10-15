@@ -3,7 +3,7 @@ import React, { Fragment } from 'react'
 const Contact = () => {
     return(
         <Fragment>
-            <form>
+            <form id='contacto'>
                 <input                     
                     type="text"
                     placeholder="ingrese el nombre"

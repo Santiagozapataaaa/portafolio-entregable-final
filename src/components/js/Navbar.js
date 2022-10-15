@@ -9,10 +9,10 @@ const Navbar = () => {
                     <img src={fenrir} alt='logotipo fenrir'/>
                 </div>
                 <div className={Styles.contenido}>
-                    <a href='./Aboutme.js'>Sobre mi</a>
-                    <a href='./Skills.js'>Habilidades</a>
-                    <a href='./Projects.js'>Proyectos</a>
-                    <a href='./Contact.js'>Contacto</a>
+                    <a href='#sobremi'>Sobre mi</a>
+                    <a href='#habilidades'>Habilidades</a>
+                    <a href='#proyectos'>Proyectos</a>
+                    <a href='#contacto'>Contacto</a>
                 </div>
             </nav>
         </div>

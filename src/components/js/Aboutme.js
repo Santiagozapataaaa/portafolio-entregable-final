@@ -3,7 +3,7 @@ import fenrir from '../../data/fenrir.png'
 
 const AboutMe = () => {
     return( 
-        <main>
+        <main id='sobremi'>
             <div className={Styles.contenedor}>
                 <div className={Styles.imagen}>
                     <img src={fenrir} alt='imagen fenrir'></img>
