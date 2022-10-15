@@ -21,7 +21,6 @@
 
 .logo img{
     width: 100px;
-    display: block;
     filter: invert(100);
     float: left;
 }

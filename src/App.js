@@ -1,10 +1,8 @@
-import './App.css';
-import React from 'react';
-import Navbar from './components/Navbar';
-import Aboutme from './components/Aboutme'
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import Skills from './components/Skills';
+import Navbar from './components/js/Navbar';
+import Aboutme from './components/js/Aboutme'
+import Projects from './components/js/Projects';
+import Contact from './components/js/Contact';
+import Skills from './components/js/Skills';
 
 function App() {
   return (
