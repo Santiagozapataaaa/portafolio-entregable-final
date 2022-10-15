@@ -1,5 +1,3 @@
-import React, { Fragment } from 'react'
-
 const Projects = () => {
     return(
             <section id='proyectos'>
