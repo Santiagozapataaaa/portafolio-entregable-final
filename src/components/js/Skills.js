@@ -6,13 +6,19 @@ import php from '../../data/php.png'
 import sql from '../../data/sqlServer.png'
 import processing from '../../data/processing.png'
 import cSharp from '../../data/cSharp.png'
+import styled from 'styled-components'
 
 
 const Skills = () => {
+
+const Myh3 = styled.h3`
+color: black;
+`;
+
     return(
         <Fragment>
             <div>
-                <h2>Ruta de aprendizaje</h2>
+                <Myh3>Ruta de aprendizaje</Myh3>
             </div>
             <div>
                 <article>
