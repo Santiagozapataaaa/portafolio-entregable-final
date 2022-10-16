@@ -58,6 +58,8 @@ font-weight: bold;
 
 const Contenedor = styled.div`
 background-color: #585858;
+margin: 0px 60px 0px 60px;
+border-radius: 20px;
 color: #000;
 display: flex;
 flex-direction: row;
@@ -70,7 +72,7 @@ const Titulo = styled.div`
 background-color: #222222;
 padding: 0px;
 text-align: center;
-height: 60px;
+height: 50px;
 `;
 
 const Widget = styled.article`
@@ -80,16 +82,31 @@ padding: 20px;
 const Imagenes = styled.img`
 height: 150px;
 width: 170px;
+  &:hover {
+     height: 160px;
+     width: 180px;
+     transition: 0.3s ease-in-out;
+  }
 `;
 
 const ImgCss = styled.img`
 height: 150px;
 width: 135px;
+&:hover {
+     height: 160px;
+     width: 145px;
+     transition: 0.3s ease-in-out;
+  }
 `;
 
 const ImgJs = styled.img`
 height: 150px;
 width: 245px;
+&:hover {
+     height: 160px;
+     width: 255px;
+     transition: 0.3s ease-in-out;
+  }
 `;
 
 export default Skills;
